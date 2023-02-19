@@ -1,5 +1,9 @@
 const crypto = require("crypto");
 
+/**
+ * All subsequent `if` statements are easy to understand, and exclusive.
+ * I can provide no more clear solution for this.
+ */
 exports.deterministicPartitionKey = (event) => {
   const TRIVIAL_PARTITION_KEY = "0";
   const MAX_PARTITION_KEY_LENGTH = 256;
